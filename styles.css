@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+/* ----- HEADER ----- */
+
+.header {
+    background-image: linear-gradient(to right, rgb(155, 203, 134), rgb(0, 199, 67));
+    position: relative;
+}
+
+.header__row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header__logo-box {
+    display: inline-block;
+}
+
+.header__logo--img {
+    height: 100px;
+    width: auto;
+}
+
+.nav {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+}
+.nav--box li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav__links {
+    display: inline;
+    text-decoration: none;
+    color: #535353;
+    font-size: 1.3rem;
+    padding-bottom: 5px;
+}
+
+.nav__links:hover,
+.nav__links:active {
+    border-bottom: 2px solid #535353;
+    padding-bottom: 5px;
+}
+
+
+/* ----- HERO ----- */
+
+.hero {
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(img/hero.jpg);
+    background-size: cover; /* Makes photo fit the screen size */
+    transform: translateY(-100px);
+    z-index: -1;
+}
+
+.hero__text-box {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    font-weight: 300;
+}
+
+.hero__heading{
+    color: #fff;
+    font-weight: 300;
+    font-size: 3rem;
+    letter-spacing: .8rem;
+}
+
+.hero__btn--box {
+    position: absolute;
+    left: 10%;
+    top: 45%;
+}
+
+.hero__btn:link,
+.hero__btn:visited {
+    text-decoration: none;
+    color: #535353;
+    font-size: 1.5rem;
+    background-color:  #9bcb86;
+    border-radius: 200px;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 30px;
+    transition: all .2s;
+}
+
+.hero__btn:hover,
+.hero__btn:active {
+    background-color: #00c743;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 .5rem 4rem #000;
+}
+
+
+/* ----- WILDLIFE ----- */
+
+.wild-life {
+    position: relative;
+    height: 100vh;
+    background-color: #f3f3f3;
+    padding: 5rem 0;
+    transform: translateY(-100px);
+}
+
+.wild-life__heading-box {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wild-life__heading {
+    font-size: 2.5rem;
+    color: #00c743;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.heading--tertiary {
+    font-size: 1.8rem;
+    color: #00c743;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.wild-life__row {
+    max-width: 1140px;
+    margin: 80px auto 0 auto;
+}
+
+.para {
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+
+.wild-life__col-1 {
+    float: left;
+    width: 50%;
+}
+.wild-life__col-2 {
+    float: left;
+    position: relative;
+}
+
+.wild-life__img-1 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 27%;
+    right: 10%;
+}
+
+.wild-life__img-2 {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    right: 25%;
+}
